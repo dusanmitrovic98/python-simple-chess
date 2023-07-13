@@ -19,3 +19,4 @@ class ChessGame:
                 print(f" {self.board[i][j]} ", end="|")
             print(f" {8 - i}")
             print("  ---------------------------------")
+        print("   ", end="")
