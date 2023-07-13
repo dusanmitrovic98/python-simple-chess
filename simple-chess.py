@@ -12,3 +12,4 @@ class ChessGame:
     def print_board(self):
         print("   ", end="")
         print("   ".join([chr(97 + i) for i in range(8)]))
+        print("  ---------------------------------")
