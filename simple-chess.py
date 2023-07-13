@@ -9,3 +9,4 @@ class ChessGame:
                       ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'],
                       ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r']]
 
+    def print_board(self):
