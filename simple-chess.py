@@ -25,3 +25,4 @@ class ChessGame:
     def move_piece(self, from_pos, to_pos):
         from_col, from_row = self.parse_position(from_pos)
         to_col, to_row = self.parse_position(to_pos)
+
