@@ -17,3 +17,4 @@ class ChessGame:
             print(f"{8 - i} |", end="")
             for j in range(8):
                 print(f" {self.board[i][j]} ", end="|")
+            print(f" {8 - i}")
