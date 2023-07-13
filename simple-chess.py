@@ -35,3 +35,4 @@ class ChessGame:
         row = 8 - int(position[1])
         return col, row
 
+    def play(self):
