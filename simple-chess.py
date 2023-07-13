@@ -21,3 +21,4 @@ class ChessGame:
             print("  ---------------------------------")
         print("   ", end="")
         print("   ".join([chr(97 + i) for i in range(8)]))
+
