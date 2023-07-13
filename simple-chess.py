@@ -37,3 +37,4 @@ class ChessGame:
 
     def play(self):
         self.print_board()
+
