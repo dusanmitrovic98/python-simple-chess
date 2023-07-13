@@ -49,3 +49,4 @@ class ChessGame:
 # Start the game
 chess_game = ChessGame()
 chess_game.play()
+
