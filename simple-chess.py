@@ -31,3 +31,4 @@ class ChessGame:
         self.board[to_row][to_col] = piece
 
     def parse_position(self, position):
+        col = ord(position[0]) - ord('a')
