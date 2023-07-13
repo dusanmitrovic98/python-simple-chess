@@ -15,3 +15,4 @@ class ChessGame:
         print("  ---------------------------------")
         for i in range(8):
             print(f"{8 - i} |", end="")
+            for j in range(8):
