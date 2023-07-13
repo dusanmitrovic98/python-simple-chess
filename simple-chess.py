@@ -32,3 +32,4 @@ class ChessGame:
 
     def parse_position(self, position):
         col = ord(position[0]) - ord('a')
+        row = 8 - int(position[1])
