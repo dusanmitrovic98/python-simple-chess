@@ -23,3 +23,4 @@ class ChessGame:
         print("   ".join([chr(97 + i) for i in range(8)]))
 
     def move_piece(self, from_pos, to_pos):
+        from_col, from_row = self.parse_position(from_pos)
