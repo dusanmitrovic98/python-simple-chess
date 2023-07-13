@@ -29,3 +29,4 @@ class ChessGame:
         piece = self.board[from_row][from_col]
         self.board[from_row][from_col] = ' '
         self.board[to_row][to_col] = piece
+
