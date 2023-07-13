@@ -39,3 +39,4 @@ class ChessGame:
         self.print_board()
 
         while True:
+            from_pos = input("Enter the position of the piece you want to move: ")
