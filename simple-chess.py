@@ -45,3 +45,4 @@ class ChessGame:
             self.move_piece(from_pos, to_pos)
             self.print_board()
 
+
