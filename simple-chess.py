@@ -46,3 +46,4 @@ class ChessGame:
             self.print_board()
 
 
+# Start the game
