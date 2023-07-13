@@ -36,3 +36,4 @@ class ChessGame:
         return col, row
 
     def play(self):
+        self.print_board()
