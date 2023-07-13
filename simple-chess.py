@@ -26,3 +26,4 @@ class ChessGame:
         from_col, from_row = self.parse_position(from_pos)
         to_col, to_row = self.parse_position(to_pos)
 
+        piece = self.board[from_row][from_col]
