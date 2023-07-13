@@ -47,3 +47,4 @@ class ChessGame:
 
 
 # Start the game
+chess_game = ChessGame()
