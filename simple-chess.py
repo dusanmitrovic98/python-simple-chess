@@ -30,3 +30,4 @@ class ChessGame:
         self.board[from_row][from_col] = ' '
         self.board[to_row][to_col] = piece
 
+    def parse_position(self, position):
